@@ -181,7 +181,7 @@ var myInterests = ["Hockey", "Cats", "Computers", "Coding", "Cartoons"];
 // Loop through the interests and console log the phrase "One of my interests is: [your interest]." for each of the interests in your array.
 for(var i = 0; i < myInterests.length; i++){
     if(myInterests[i] === "Hockey"){
-        console.log("I love ", myInterests[i])
+        console.log("I love ", myInterests[i]);
     } else {
     console.log("One of my interests is ", myInterests[i],);
     }
@@ -193,3 +193,44 @@ for(var i = 0; i < myInterests.length; i++){
 // Copy and paste the following array into your JavaScript file:
 var harryPotterTitles = ["and the Sorcerer's Stone", "and the Chamber of Secrets", "and the Prisoner of Azkaban", "and the Goblet of Fire", "and the Order of the Phoenix", "and the Half-Blood Prince", "and the Deathly Hallows"];
 // Use a for loop to output the complete titles to the console.
+for(var i = 0; i < harryPotterTitles.length; i++){
+    console.log("Harry Potter ", harryPotterTitles[i]);
+}
+
+// Copy and paste the folowing array of grades into your JavaScript file:
+// var grades = [92, 91, 75, 66, 52, 90, 83, 85, 64, 90, 72, 88, 77, 98, 100, 73, 92]
+// // Loop through the grades with a for loop
+// // If the current grade is greater than or equal to 0 and less than or equal to 69, log "You got an F" to the console.
+// // If it's between 70 and 76, log "You got a D" to the console.
+// // If it's between 77 and 84, log "You got a C" to the console.
+// // If it's between 84 and 92, log "You got a B" to the console.
+// // If it's between 93 and 100, log "You got an A" to the console.
+// for(var i = 0; i < grades.length; i++){
+//     if(grades[i] <= 69 && grades[i]){
+//         console.log("You got an F");
+//     } else if(grades[i] >= 70 && grades[i] <= 76){
+//         console.log("You got a D");
+//     } else if(grades[i] >= 77 && grades[i] <= 84){
+//         console.log("You got a C");
+//     } else if(grades[i] >= 84 && grades[i] <= 92){
+//         console.log("You got a B");
+//     } else if(grades[i] >= 93 && grades[i] <= 100){
+//         console.log("You got an A");
+//     }
+// }
+
+// Two, Four, Six, Eight - Who do we appreciate?! CHEER
+// Write a loop that counts by 2's and creates the following output.
+// Output
+// 2 4 6 8 Who do we appreciate?{!
+for(var i = 2; i <= 8; i = i + 2){
+    console.log(i);
+    if(i === 8){
+        console.log("Who do we apreciate");
+    }
+}
+
+// Student Grades Take Two
+// Copy and paste the folowing array of grades into your JavaScript file:
+var grades = [92, 91, 75, 66, 52, 90, 83, 85, 64, 90, 72, 88, 77, 98, 100, 73, 92]
+// Loop through the grades with a for loop. Use an if statement to find the highest and lowest grades and then write them to the console.
