@@ -155,15 +155,41 @@ while(i != 100){
     i++;
 }
 // Bird For Loop
-for(i = 0; i != 100; i++){
+for(var i = 0; i != 100; i++){
     console.log("TWEET TWEET");
 }
 
 // In your JavaScript, create a new variable called favoriteFoods. It should store an array of strings representing five of your favorite foods.
 var favoriteFoods = ["Pizza", "Tacos", "Steak", "Potatoes", "Pasta"];
 // Loop through the array and print each food item to the console.
-var counter = 0;
-while(counter != favoriteFoods.length){
-    console.log(favoriteFoods[counter], "is at position", counter);
-    counter++;
+for(var i = 0; i < favoriteFoods.length; i++){
+    console.log(favoriteFoods[i], "is at position", i);
 }
+
+
+// Student Names
+// In your JavaScript file, copy and paste the following array:
+var cohortOneStudents = ["Sable", "David", "Joey", "Nick", "Tommy", "Connor", "Charles", "Russ", "Bobby", "Josh", "Nikki", "Matt", "Dale", "Sydney"];
+// Use a for loop to print each student's name to the console.
+for(var i = 0; i < cohortOneStudents.length; i++){
+    console.log(cohortOneStudents[i]);
+}
+
+// Interests
+// In your JavaScript file, create an array of 5 of your interests.
+var myInterests = ["Hockey", "Cats", "Computers", "Coding", "Cartoons"];
+// Loop through the interests and console log the phrase "One of my interests is: [your interest]." for each of the interests in your array.
+for(var i = 0; i < myInterests.length; i++){
+    if(myInterests[i] === "Hockey"){
+        console.log("I love ", myInterests[i])
+    } else {
+    console.log("One of my interests is ", myInterests[i],);
+    }
+}
+// Favorite Interest
+// Refactor your loop from the previous exercise. Pick one of your interests as your absolute favorite interest. Add a conditional to your loop to check if each interest in the array is your favorite. When the loop gets to your favorite interest, it should print "My absolute favorite interest is:" followed by the name of your interest. Any other interests can be printed the same way that they were in the previous exercise.
+
+// Harry Potter Titles
+// Copy and paste the following array into your JavaScript file:
+var harryPotterTitles = ["and the Sorcerer's Stone", "and the Chamber of Secrets", "and the Prisoner of Azkaban", "and the Goblet of Fire", "and the Order of the Phoenix", "and the Half-Blood Prince", "and the Deathly Hallows"];
+// Use a for loop to output the complete titles to the console.
