@@ -106,3 +106,24 @@ if (time === "7:30 AM" && isHungry === true){
     }
 } 
 // Try changing the values of your variables. You should get different results every time you change them
+
+// Student Grades
+// In your JavaScript file, declare a new variable called grade and give it a number value between 0 and 100.
+var grade = 90;
+// Write a conditional that converts the number grade to a letter grade:
+// If the value of grade is greater than or equal to 0 and less than or equal to 69, log "You got an F" to the console.
+// If it's between 70 and 76, log "You got a D" to the console.
+// If it's between 77 and 84, log "You got a C" to the console.
+// If it's between 84 and 92, log "You got a B" to the console.
+// If it's between 93 and 100, log "You got an A" to the console.
+if (grade <= 69){
+    console.log("You got an F");
+} else if (grade >= 70 && grade <= 76){
+    console.log("You got a D");
+} else if (grade >= 77 && grade <= 84){
+    console.log("You got a C");
+} else if (grade >= 84 && grade <= 92){
+    console.log("You got a B");
+} else if (grade >= 93 && grade <= 100){
+    console.log("You got an A");
+}
