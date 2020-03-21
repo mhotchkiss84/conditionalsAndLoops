@@ -242,5 +242,3 @@ for(var i = 0; i <= grades.length; i++){
         console.log(grades[i], "is the highest grade");
     }
 }
-
-// console.log(Math.min(...grades))
