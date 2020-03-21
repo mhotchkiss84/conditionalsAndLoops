@@ -234,3 +234,13 @@ for(var i = 2; i <= 8; i = i + 2){
 // Copy and paste the folowing array of grades into your JavaScript file:
 var grades = [92, 91, 75, 66, 52, 90, 83, 85, 64, 90, 72, 88, 77, 98, 100, 73, 92]
 // Loop through the grades with a for loop. Use an if statement to find the highest and lowest grades and then write them to the console.
+for(var i = 0; i <= grades.length; i++){
+    if(grades[i] === (Math.min(...grades))){
+        console.log(grades[i], "is the lowest grade");
+    }
+    if(grades[i] === (Math.max(...grades))){
+        console.log(grades[i], "is the highest grade");
+    }
+}
+
+// console.log(Math.min(...grades))
