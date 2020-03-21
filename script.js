@@ -68,3 +68,18 @@ if(birthYear >= 1966 && birthYear <= 1976){
     console.log("You were born during Generation Z");
 }
 // Try changing the value of birthYear and see what happens.
+
+// Greetings
+// In your JavaScript file, create a new object representing a person. Your object should have at least two properties: one for the person's name and one for their preferred language.
+var aPerson = {name: "Mike Hotchkiss", prefLanguage: "English"};
+// Write a conditional that checks for the following:
+// If the person's preferred language is English, print "Hello, [name]!" to the console.
+// If the person's preferred language is Spanish print "Hola, [name]!" to the console.
+// If their preferred language is French, print "Bonjour, [name]!" to the console.
+if(aPerson.prefLanguage === "English"){
+    console.log(`Hello, ${aPerson.name}`);
+} else if(aPerson.prefLanguage === "Spanish"){
+    console.log(`Hola, ${aPerson.name}`);
+} else if(aPerson.prefLanguage === "French"){
+    console.log(`Bonjour, ${aPerson.name}`);
+}
