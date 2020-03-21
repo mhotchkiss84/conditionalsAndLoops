@@ -83,3 +83,26 @@ if(aPerson.prefLanguage === "English"){
 } else if(aPerson.prefLanguage === "French"){
     console.log(`Bonjour, ${aPerson.name}`);
 }
+
+// Grandma's Kitchen
+// In your JavaScript file, declare two new variables:
+// A variable called time that should store a string that represents a time of day ("1:00 PM", "2:00 PM", etc)
+var time = "7:00 PM";
+// A variable called isHungry that stores a boolean representing whether or not you're hungry
+var isHungry = true;
+// Write a conditional that checks the following:
+// If it's 7:30 AM and you're hungry, log "Time for breakfast!" to the console
+// If it's 12:00 PM and you're hungry, log "Time for luch!" to the console
+// If it's 7:00 PM or 8:00 PM and you're hungry, log "Time for dinner!" to the console.
+// If you're hungry, log "Time for a snack!" to the console.
+// If none of the above are true, log "Have a cookie anyway!" to the console.
+if (time === "7:30 AM" && isHungry === true){
+    console.log("Time for breakfast");
+} else if (time === "12:00 PM" && isHungry === true){
+    console.log("Time for lunch!");
+} else if (time === "7:00 PM" || time === "8:00 PM"){
+    if (isHungry === true){
+    console.log("Time for dinner");
+    }
+} 
+// Try changing the values of your variables. You should get different results every time you change them
