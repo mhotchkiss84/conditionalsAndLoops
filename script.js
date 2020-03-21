@@ -127,3 +127,43 @@ if (grade <= 69){
 } else if (grade >= 93 && grade <= 100){
     console.log("You got an A");
 }
+
+// Loops while bored 
+
+var i = 1;
+while(i < 20){
+    console.log("Hello, world!");
+    i++;
+}
+
+var moviesArray = ["Pulp Fiction", "Snatch", "Midway"];
+var i = 0 ;
+
+while(i < moviesArray.length){
+    console.log(moviesArray[i]);
+    i++;
+}
+
+// Lightning Exercise
+// Psychotic Bird
+// In your JavaScript file, write a while loop that outputs the phrase "TWEET TWEET" 100 times to the console.
+
+var i = 0;
+
+while(i != 100){
+    console.log("TWEET TWEET");
+    i++;
+}
+// Bird For Loop
+for(i = 0; i != 100; i++){
+    console.log("TWEET TWEET");
+}
+
+// In your JavaScript, create a new variable called favoriteFoods. It should store an array of strings representing five of your favorite foods.
+var favoriteFoods = ["Pizza", "Tacos", "Steak", "Potatoes", "Pasta"];
+// Loop through the array and print each food item to the console.
+var counter = 0;
+while(counter != favoriteFoods.length){
+    console.log(favoriteFoods[counter], "is at position", counter);
+    counter++;
+}
