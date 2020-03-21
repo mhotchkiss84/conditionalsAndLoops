@@ -238,7 +238,7 @@ for(var i = 0; i <= grades.length; i++){
     if(grades[i] === (Math.min(...grades))){
         console.log(grades[i], "is the lowest grade");
     }
-    if(grades[i] === (Math.max(...grades))){
+    else if(grades[i] === (Math.max(...grades))){
         console.log(grades[i], "is the highest grade");
     }
 }
